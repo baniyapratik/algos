@@ -4,10 +4,11 @@ package bfs;
 Breadth-First Search
 It visits the neighbors and then the neighbors of these new vertices until all the nodes are
 visited.
-- Run time complexity is O(V+E)
+- Run time complexity is O(V+E).
 - Main problem with BFS is that it has to store a lot of references so the memory complexity is
 not favorable.
-
+- It has O(N) memory complexity in worst-case scenario.
+- It finds closer items faster(when the vertex is close to the starting node).
 Applications
 
 1. Garbage collection:
